@@ -1,0 +1,41 @@
+
+July 4, 2023
+
+Vite
+Q1. Cannot run yarn run dev/ yarn run build?
+A1: npm install @vitejs/plugin-react
+
+CSS Font
+Q2. Font- Preferred css fonts source?
+A2. https://fonts.google.com/ 
+	https://www.cdnfonts.com/
+
+Material Icons
+Q3. Icons?
+A3. https://mui.com/material-ui/material-icons/
+	npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
+Vite
+Q4. Mixing Npm & yarn?
+A4. Vite uninstalled. I was not able to perform yarn run dev or npm run dev. I fixed by 	reinstalling vite etc.
+
+Javascript
+Q5. Generate random number greater than minimum and less than maximum?
+A5. function randomRange(myMin, myMax) {
+  return Math.floor(Math.random() * (myMax - myMin + 1 )) + myMin
+	}
+
+
+July 15, 2023 - Postman
+Q6. I got an error message when I tested in postman {"success":false,"status":500,"message":"No write concern mode named 'majority ,' found in replica set configuration"}
+A6. I missed to put quotation marks in .env file for my MONGO_URI.
+I just removed the comma that separate mongo_uri, and port_no and instead, I put quotation marks around each.
+
+
+July16, 2023 - Angular
+Q7. Could not find the '@angular-devkit/build-angular:dev-server' builder's node package.
+A7. NODE_ENV was set to production. After I changed it to development and restart, and delete the node_modules and package.lock.json, I entered npm install. and it already works.
+
+
+
+
