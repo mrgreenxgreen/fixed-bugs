@@ -36,6 +36,19 @@ July16, 2023 - Angular
 Q7. Could not find the '@angular-devkit/build-angular:dev-server' builder's node package.
 A7. NODE_ENV was set to production. After I changed it to development and restart, and delete the node_modules and package.lock.json, I entered npm install. and it already works.
 
+August ,2023 - Vite 
+Q8. I newly installed linux mint, then vite is not compatible with the versions of npm and nodejs via sudo apt install npm. Basically, I need higher version of npm and nodejs.
+A8. install via NVM :
+step 1.
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+step 2.
+open new terminal
+step 3.
+nvm list-remote
+step 4.
+nvm install v15.0.0 (change the version as preferred)
+step 5.
+check version
 
 
 
